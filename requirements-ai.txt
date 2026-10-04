@@ -1,0 +1,20 @@
+# AnimeImage AI / Hugging Face
+# Python 3.10+ recommended.
+#
+# Install:
+#   python -m pip install -r requirements-ai.txt
+#
+# PyTorch is intentionally listed here so the environment is reproducible.
+# For a CUDA-specific PyTorch build, install the matching PyTorch wheel first
+# from pytorch.org, then install the remaining packages.
+
+torch>=2.1
+torchvision>=0.16
+diffusers>=0.30
+transformers>=4.40
+accelerate>=0.30
+safetensors>=0.4
+huggingface_hub>=0.23
+Pillow>=10
+opencv-python>=4.8
+numpy>=1.24
