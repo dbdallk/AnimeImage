@@ -56,3 +56,5 @@ for src in sorted(SRC.glob("*.png")):
     dst = DST / src.name
     anime_filter(src, dst)
     print(f"processed: {src} -> {dst}")
+
+# MT batch trigger
